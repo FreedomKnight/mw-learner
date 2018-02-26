@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Merriam-Webster's Learner's Dictionary",
+  "description": "",
+  "version": "1.1",
+  "browser_action": {
+      "default_icon": "icon.png"
+  },
+
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "contextMenus"
+  ]
+}
