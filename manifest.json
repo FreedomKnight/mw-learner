@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Merriam-Webster's Learner's Dictionary",
+  "name": "Merriam-Webster Learner's Dictionary",
   "description": "",
   "version": "1.2",
   "browser_action": {
