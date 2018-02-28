@@ -9,14 +9,24 @@
   },
 
   "icons": {
-    "16": "icon.png",
-    "32": "icon.png"
+      "16": "icon.png",
+      "32": "icon.png",
+      "64": "icon.png"
   },
   "background": {
     "scripts": ["background.js"],
     "persistent": true
   },
+  "content_scripts": [
+      {
+          "matches": ["*://*/*"],
+          "css": ["contents/css/content.css"],
+          "js": ["node_modules/axios/dist/axios.min.js", "contents/js/content.js"],
+          "run_at": "document_end",
+          "all_frames": true
+      }
+  ],
   "permissions": [
-    "contextMenus"
+      "contextMenus"
   ]
 }

@@ -1,0 +1,12 @@
+.definition-tooltip {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: black;
+  border-radius: 6px;
+  padding: 5px;
+  color: white;
+  font-family: serif;
+}
